@@ -1,0 +1,42 @@
+
+.id{
+position: absolute;
+top: 0;
+left: 0;
+width: 400px;
+height: 400px;
+border: 2px solid black;
+}
+
+.block {
+border:1px solid black;
+width: 242px;/*ширина*/
+height: 242px;/*высота*/
+margin: auto;
+}
+
+#r3{
+background: green;
+}
+
+#r8{
+background: blue;
+}
+body{
+overflow:  hidden;
+}
+.square{
+margin: none;
+padding: none;
+width: 80px;/*ширина*/
+height: 80px;/*высота*/  
+float: left;
+background: rgb(221, 221, 228);
+border: 2px solid black;
+}
+
+#r8.active{
+border: 3px solid red;
+
+border-radius: 50%;
+}
